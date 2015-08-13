@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainNavView" parent="Widget.Design.NavigationView">
+        <item name="android:listDivider">@color/nav_divider</item>
+        <item name="android:textColorSecondary">@color/nav_subheader_txt</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="AccentButton" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/accent</item>
+        <item name="colorControlHighlight">@color/accentDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="AccentButtonBlue" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/btnAccentBlue</item>
+        <item name="colorControlHighlight">@color/btnAccentBlueDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AccentButtonRed" parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/btnAccentRed</item>
+        <item name="colorControlHighlight">@color/btnAccentRedDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="NoAppBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="Inicio"/>
+        <item android:title="Noticias"/>
+        <item android:title="Experiencias"/>
+        <item android:title="Patologias"/>
+        <item android:title="Tips"/>
+    </group>
+    <group>
+        <item android:title="Cuidadores"/>
+    </group>
+    <item
+        android:title="Perfil"
+        >
+        <menu>
+            <item android:title="Editar"/>
+            <item android:title="Cerrar Sesion"/>
+        </menu>
+
+    </item>
+
+</menu>

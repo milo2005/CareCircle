@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CareCircle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Novedades</string>
+    <string name="login_img_content">Imagen de cuidado de discapacitados</string>
+    <string name="close_nav">Cierre de menu lateral</string>
+    <string name="open_nav">Apertura de menu lateral</string>
+
+    <string name="category_news">Noticias</string>
+    <string name="category_experience">Experiencias</string>
+    <string name="category_pathology">Patologias</string>
+    <string name="category_tips">Tips</string>
+    <string name="title_activity_helper_map">Personas Cercanas</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="login_register">Registrar</string>
+
+</resources>
+

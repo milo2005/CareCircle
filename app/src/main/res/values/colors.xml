@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#303F9F</color>
+    <color name="accent">#03A9F4</color>
+
+    <color name="login_bg">#333333</color>
+
+    <color name="accentDark">#027ab2</color>
+    <color name="fab_bg">@color/accent</color>
+    <color name="nav_bg">#333333</color>
+    <color name="nav_item_txt">#eeeeee</color>
+    <color name="nav_subheader_txt">#aaaaaa</color>
+    <color name="nav_divider">#888888</color>
+
+
+    <color name="btnAccentBlue">#3c5a9a</color>
+    <color name="btnAccentBlueDark">#2b3765</color>
+    <color name="btnAccentRed">#df4a32</color>
+    <color name="btnAccentRedDark">#a7402c</color>
+
+    <color name="categoryNews">#2d3d92</color>
+    <color name="categoryExperience">#2dbe92</color>
+    <color name="categoryPathology">#8b0092</color>
+    <color name="categoryTips">#ff9f00</color>
+</resources>
