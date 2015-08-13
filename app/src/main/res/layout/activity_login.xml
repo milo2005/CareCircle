@@ -1,23 +1,16 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ezlife.movil.ezparking.LoginActivity"
-    android:orientation="vertical"
+
     >
 
 
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/login_appbar_height"
-        app:elevation="@dimen/login_appbar_elevation"
-        >
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
+
+           <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/img_care"
@@ -27,52 +20,14 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/img_mask"
+                android:src="@drawable/login_mask"
                 />
 
-            <ImageView
-                android:id="@+id/logo"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/ic_help"
-                android:layout_alignParentBottom="true"
-                android:layout_margin="@dimen/padding_small"
-                />
 
-            <TextView
-                style="@style/Base.TextAppearance.AppCompat.Display1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/app_name"
-                android:textColor="@android:color/white"
-                android:layout_alignBottom="@id/logo"
-                android:layout_toRightOf="@id/logo"
 
-                />
 
-        </RelativeLayout>
 
-    </android.support.design.widget.AppBarLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="@dimen/padding_small"
-        android:gravity="center"
-        android:background="@color/login_bg"
-        >
-
-        <Button
-            android:id="@+id/btn_facebook"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="@dimen/padding_medium"
-            app:theme="@style/AccentButtonBlue"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/ic_facebook"
-            android:text="Facebook"
-            />
 
         <Button
             android:id="@+id/btn_google"
@@ -81,13 +36,57 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_google"
             android:text="Google +"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_alignParentBottom="true"
             />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/padding_small"
+        android:layout_marginRight="@dimen/padding_small"
+        app:theme="@style/AccentButtonBlue"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:text="Facebook"
+        android:layout_above="@id/btn_google"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_help"
+        android:layout_above="@id/btn_facebook"
+        android:layout_margin="@dimen/padding_small"
+        />
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/login_msg"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@id/logo"
+        android:layout_toRightOf="@id/logo"
+
+        />
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/msg"
+        android:layout_toRightOf="@id/logo"
+
+        />
 
 
-
-
-
-
-</LinearLayout>
+</RelativeLayout>
