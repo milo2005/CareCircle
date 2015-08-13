@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="NoAppBar" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorPrimaryDark">@color/primaryDark</item>
-        <item name="colorAccent">@color/accent</item>
+    <style name="FullNoAppBar" parent="NoAppBar">
         <item name="android:statusBarColor">@color/primaryDark</item>
         <item name="android:windowTranslucentStatus">true</item>
     </style>

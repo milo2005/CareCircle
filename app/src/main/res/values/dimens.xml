@@ -7,4 +7,10 @@
     <dimen name="padding_small">10dp</dimen>
     <dimen name="padding_medium">18dp</dimen>
     <dimen name="fab_size">68dp</dimen>
+    <dimen name="appbar_max_height">300dp</dimen>
+    <dimen name="padding_big">35dp</dimen>
+    <dimen name="helper_row_h">90dp</dimen>
+    <dimen name="helper_row_pl">90dp</dimen>
+    <dimen name="helper_icon_padding">28dp</dimen>
+    <dimen name="helper_icon_w">100dp</dimen>
 </resources>

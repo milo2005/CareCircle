@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#3F51B5</color>
-    <color name="primaryDark">#303F9F</color>
-    <color name="accent">#03A9F4</color>
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#1976D2</color>
+    <color name="accent">#00BCD4</color>
 
     <color name="login_bg">#333333</color>
 
-    <color name="accentDark">#027ab2</color>
+    <color name="accentDark">#008b9c</color>
     <color name="fab_bg">@color/accent</color>
     <color name="nav_bg">#333333</color>
     <color name="nav_item_txt">#eeeeee</color>
@@ -23,4 +23,6 @@
     <color name="categoryExperience">#2dbe92</color>
     <color name="categoryPathology">#8b0092</color>
     <color name="categoryTips">#ff9f00</color>
+
+    <color name="divider">#e0e0e0</color>
 </resources>

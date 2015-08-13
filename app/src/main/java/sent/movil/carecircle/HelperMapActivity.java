@@ -1,5 +1,6 @@
 package sent.movil.carecircle;
 
+import android.content.Intent;
 import android.location.Location;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -73,7 +74,7 @@ public class HelperMapActivity extends AppCompatActivity implements GoogleMap.On
         map.addMarker(new MarkerOptions()
                 .position(new LatLng(2.4445141659962912, -76.60688599200438))
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_helper)));
-        map.addMarker(new MarkerOptions().anchor(50,30)
+        map.addMarker(new MarkerOptions()
                 .position(new LatLng(2.441041181930445, -76.60551270098875))
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_nurs)));
 
@@ -87,6 +88,8 @@ public class HelperMapActivity extends AppCompatActivity implements GoogleMap.On
 
     @Override
     public boolean onMarkerClick(Marker marker) {
+        Intent intent = new Intent(this, HelperActivity.class);
+        startActivity(intent);
         return false;
     }
 }

@@ -16,6 +16,9 @@
     <string name="title_activity_maps">Map</string>
     <string name="login_register">Registrar</string>
     <string name="login_msg">Atrevete a dar una mano !</string>
+    <string name="title_activity_helper">HelperActivity</string>
+    <string name="title_activity_publication">PublicationActivity</string>
+    <string name="helper_description">Me considero una persona dispuesta a ayudar en lo que se necesite, pueden contar conmigo</string>
 
 </resources>
 
